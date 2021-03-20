@@ -2,10 +2,10 @@ import random
 
 def generator_password():
 
-    upper_list = ['A','B','C','D','E','F','G','H','I']
-    lower_list = ['a','b','c','d','e','f','g','h','i']
-    symbol_list = ['!','?','$','Ç','¡','&','y','h','i']
-    numbers_list = ['1','2','3','4','5','6','7','8','9']
+    upper_list = ['A','B','C','D','E','F','G','H','I','J','k']
+    lower_list = ['a','b','c','d','e','f','g','h','i','j','K']
+    symbol_list = ['!','?','$','Ç','¡','&','y','%',':','/','|']
+    numbers_list = ['1','2','3','4','5','6','7','8','9','10','11']
 
     character_list = upper_list + lower_list + symbol_list + numbers_list
 
